@@ -4,7 +4,12 @@
     chmod +x up.sh
     ./up.sh
 
-- Ejecutar las migraciones (opcional)
+**Otros comandos necesarios**
+- Ejecutar las migraciones
+    docker exec -it laravel-database php artisan migrate:fresh --seed
+
+- Ejecturar un worker (hilo)
+    docker exec -it laravel-inscripciones php artisan queue:listen
    
 
 
