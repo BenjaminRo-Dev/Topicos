@@ -1,0 +1,17 @@
+# Ignore everything by default
+*
+
+# Allow only these files at repo root
+!/.gitignore
+!/docker-compose.yml
+!/readme.md
+!/up.sh
+
+# Optional: keep .env files out everywhere
+*.env
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

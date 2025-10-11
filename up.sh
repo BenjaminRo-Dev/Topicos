@@ -41,3 +41,4 @@ echo "🚀 Levantando contenedores..."
 docker compose up -d
 
 echo "✨ Todo listo."
+echo "⏳ Nota: Esperar unos 5 minutos que los contenedores de laravel se inicien completamente."
