@@ -1,0 +1,8 @@
+include:
+  - ./gateway-inscripciones-topicos/docker-compose.simple.yaml
+  - ./s-carreras/docker-compose.simple.yaml
+  - ./inscripciones/docker-compose.simple.yaml
+  - ./academia-service/docker-compose.yml
+  - ./grupos-service/docker-compose.yml
+  - ./materias-service/docker-compose.yml
+  - ./perfil-service/docker-compose.yml
