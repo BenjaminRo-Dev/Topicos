@@ -10,8 +10,8 @@
 
 - Ejecturar un worker (hilo)
     docker exec -it laravel-inscripciones php artisan queue:listen
-   
 
-
+- Crear Red
+    docker network create microservicios-topicos
 
 *Nota: en Windows, usar Gitbash*
